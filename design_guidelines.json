@@ -1,0 +1,158 @@
+{
+  "brand_identity": {
+    "company_name": "Paraphase Controls & Transformers",
+    "brand_name": "ALPAS",
+    "tagline": "The Perfect Power Protection",
+    "experience_years": "25+",
+    "certifications": ["ISO 9001:2015", "MSME Registered"],
+    "brand_archetype": "Swiss & Precision Industrial (Trust, Precision, Heavy-Duty Reliability)",
+    "tone_of_voice": "Authoritative, technical, restrained, highly professional B2B engineering excellence"
+  },
+  "color_palette": {
+    "primary_dark_slate": "#0B192C",
+    "primary_industrial_blue": "#1E3E62",
+    "accent_brand_red": "#D32F2F",
+    "accent_brand_red_hover": "#B71C1C",
+    "teal_highlight": "#0D9488",
+    "background_clean": "#FFFFFF",
+    "background_subtle": "#F8FAFC",
+    "background_card": "#F1F5F9",
+    "text_main": "#0F172A",
+    "text_muted": "#475569",
+    "border_subtle": "#E2E8F0",
+    "border_active": "#CBD5E1"
+  },
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "Inter, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "hierarchy": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-slate-900 leading-[1.1]",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-slate-900",
+      "h3_card": "text-xl sm:text-2xl font-semibold text-slate-900",
+      "h4_subheading": "text-lg font-medium text-slate-800",
+      "body_text": "text-base text-slate-600 leading-relaxed",
+      "caption_text": "text-xs uppercase tracking-widest font-mono text-slate-500"
+    }
+  },
+  "layout_and_grid": {
+    "spacing_philosophy": "Generous industrial whitespace, strict 8px grid scale (p-4, p-8, p-12, py-20, py-28)",
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "bento_grid_mode": "Tetris Grid with 1px border cards, subtle shadows, hover lift (-translate-y-1)",
+    "card_borders": "1px solid border-slate-200 bg-white shadow-sm hover:shadow-md transition-all duration-300 rounded-xl"
+  },
+  "pages_structure": [
+    {
+      "path": "/",
+      "title": "ALPAS Power Protection | Servo Voltage Stabilizers & Industrial Transformers",
+      "sections": [
+        "Header Navigation with logo, links, direct Call/WhatsApp CTA & Quick Quote trigger",
+        "Hero Section with kinetic masked text reveal, product spotlight preview, Quick Quote CTA & WhatsApp CTA",
+        "Trust & Quick Facts Bar (25+ Years, ISO 9001:2015, MSME, 10,000+ Installations, Pan-India Support)",
+        "Editorial Slow Marquee Strip ('25+ Years Industrial Leadership • ISO 9001:2015 • Pan-India Service')",
+        "Featured Products Bento Grid (9 core lines with crisp photography & specifications link)",
+        "Numbered Manifesto Chapters (01 Engineering Precision, 02 Zero-Failure Quality, 03 Custom Tailored)",
+        "Industries & Applications Overview (Interactive preview of 23 sectors served)",
+        "Text-based Clients Trust Wall (Industrial sectors, regional power boards, OEM partners - no fake logos)",
+        "Quality & Certifications Banner (ISO & MSME verifications)",
+        "Footer with complete product site map, contact details, map link, legal disclaimers"
+      ]
+    },
+    {
+      "path": "/about",
+      "title": "About Us | Paraphase Controls & Transformers - 25+ Years Experience",
+      "sections": [
+        "Company History & Legacy since 1999",
+        "Manufacturing Plant & Testing Lab infrastructure",
+        "R&D Capabilities for Custom Electrical Engineering",
+        "Quality Policy & Standards Compliance"
+      ]
+    },
+    {
+      "path": "/products/:slug",
+      "title": "Product Detail Pages (9 Individual Pages)",
+      "products": [
+        "servo-voltage-stabilizers",
+        "isolation-transformers",
+        "ultra-isolation-transformers",
+        "furnace-ultra-isolation-transformers",
+        "variable-auto-transformers-variacs",
+        "toroidal-transformers",
+        "custom-built-transformers",
+        "servo-dc-drives",
+        "power-factor-solutions"
+      ],
+      "sections": [
+        "Product Hero with high-res shot, key technical highlights & Request Specific Specs Quote",
+        "Detailed Technical Specifications Table (Capacity kVA/kW, Input/Output Voltage, Winding Material, Efficiency, Cooling Type)",
+        "Key Features & Circuit Protections List",
+        "Target Industrial Applications",
+        "Downloadable Spec Sheet / Enquire Now Form"
+      ]
+    },
+    {
+      "path": "/industries",
+      "title": "Industries & Applications | 23 Industrial Sectors Served",
+      "sections": [
+        "23 Visual Cards grid covering Textile, CNC Machining, Hospitals, Automation, Steel Furnaces, Solar, IT Data Centers, Plastic Moulding, Packaging, Telecom, etc."
+      ]
+    },
+    {
+      "path": "/clients",
+      "title": "Client Trust Wall | Paraphase Controls & Transformers",
+      "sections": [
+        "Text-based structured trust wall categorized by sector (Automotive, Defense, Healthcare, Heavy Engineering, Textile, Renewable Energy)",
+        "Client testimonials and project case studies text"
+      ]
+    },
+    {
+      "path": "/quality",
+      "title": "Quality & Certifications | ISO 9001:2015 & MSME Certified",
+      "sections": [
+        "Detailed Quality Control Policy",
+        "In-house Testing Standards (High Voltage Breakdown, Insulation Resistance, Temperature Rise, Load Test)",
+        "ISO 9001:2015 Certificate Details",
+        "MSME Registration & Government Procurement Badges"
+      ]
+    },
+    {
+      "path": "/dealer-enquiry",
+      "title": "Dealer & Distributor Network Enquiry | ALPAS",
+      "sections": [
+        "Dealer Partnership Benefits & Margins overview",
+        "Distributor Application Form with state/region selection, turnover, existing line"
+      ]
+    },
+    {
+      "path": "/contact",
+      "title": "Contact Us | Paraphase Controls & Transformers",
+      "sections": [
+        "Interactive Factory Address, Direct Clickable Phone, Email, WhatsApp",
+        "Embedded Interactive Google Map",
+        "Direct Contact Enquiry Form"
+      ]
+    }
+  ],
+  "reusable_components": {
+    "quote_modal": "12-field comprehensive B2B quote request form with optional CAD/file attachment upload",
+    "mobile_sticky_bar": "Fixed bottom bar on mobile (<768px) with quick action buttons: CALL NOW | WHATSAPP | GET QUOTE",
+    "header_nav": "Sticky glassmorphism header (backdrop-blur-md bg-white/90 border-b border-slate-200) with top contact bar",
+    "toast_notifications": "Sonner toast system for lead form submission confirmation"
+  },
+  "image_urls": {
+    "hero_industrial_substation": "https://images.unsplash.com/photo-1509390144018-eeaf65052242?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwyfHxpbmR1c3RyaWFsJTIwdHJhbnNmb3JtZXIlMjBwb3dlciUyMGVxdWlwbWVudCUyMGZhY3Rvcnl8ZW58MHx8fHwxNzg5NDg2MzU2fDA&ixlib=rb-4.1.0&q=85",
+    "factory_manufacturing_interior": "https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHw0fHxmYWN0b3J5JTIwbWFudWZhY3R1cmluZyUyMHBsYW50JTIwbWFjaGluZXxlbnwwfHx8fDE3ODk0ODYzNjR8MA&ixlib=rb-4.1.0&q=85",
+    "industrial_plant_machinery": "https://images.unsplash.com/photo-1717386255773-1e3037c81788?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwdHJhbnNmb3JtZXIlMjBwb3dlciUyMGVxdWlwbWVudCUyMGZhY3Rvcnl8ZW58MHx8fHwxNzg5NDg2MzU2fDA&ixlib=rb-4.1.0&q=85",
+    "transformer_components_detail": "https://images.unsplash.com/photo-1509390221805-d1c887a72a00?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMjh8MHwxfHNlYXJjaHwzfHxpbmR1c3RyaWFsJTIwdHJhbnNmb3JtZXIlMjBwb3dlciUyMGVxdWlwbWVudCUyMGZhY3Rvcnl8ZW58MHx8fHwxNzg5NDg2MzU2fDA&ixlib=rb-4.1.0&q=85",
+    "robotic_assembly_line": "https://images.unsplash.com/photo-1647427060118-4911c9821b82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzN8MHwxfHNlYXJjaHwyfHxmYWN0b3J5JTIwbWFudWZhY3R1cmluZyUyMHBsYW50JTIwbWFjaGluZXxlbnwwfHx8fDE3ODk0ODYzNjR8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "instructions_to_main_agent": [
+    "Use clean, professional B2B styling with industrial deep slate navy (#0B192C) and brand red (#D32F2F) as subtle highlights.",
+    "Implement Lenis or Framer Motion scroll animations for smooth entry effects.",
+    "Include data-testid on all interactive buttons, inputs, links, and forms.",
+    "Ensure all 9 product pages have complete technical specification tables and individual enquiry triggers.",
+    "Keep the mobile sticky action bar visible on screen widths under 768px.",
+    "Provide SEO meta tags and titles dynamically per page.",
+    "Never show generic placeholder logos; client trust wall must use clear structured text categories with real company names/sectors."
+  ]
+}
